@@ -1,0 +1,36 @@
+# ===== Executables =====
+a.out
+*.out
+*.exe
+*.app
+magasin        # ton binaire final (mets le nom du programme)
+
+# ===== Object files =====
+*.o
+*.obj
+
+# ===== Build directories =====
+build/
+bin/
+dist/
+
+# ===== Debug / profiling =====
+*.dSYM/
+*.gcda
+*.gcno
+gmon.out
+
+# ===== Editor / OS =====
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ===== Logs / temp =====
+*.log
+*.tmp
+
+# ===== Ncurses cache / terminal =====
+*.screen
